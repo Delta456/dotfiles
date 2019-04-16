@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo -e "Cloning Mgba from repo.\n"
 git clone --recursive https://github.com/mgba-emu/mgba.git
@@ -9,4 +9,4 @@ cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
 make
 sudo make install
 
-echo "Bui"
+echo -e "\nBuild successfull."
